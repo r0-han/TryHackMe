@@ -27,4 +27,4 @@ Answer : github
 Answer : New York
 
 7. What is this persons password?<br>
-Answer : pennYDr0pper.! (*this was an interesting question as password is hidden in white coloration but in plain sight. Just click on left mouse and drag it all the way round to your page and you will find a text which was not present before. Very unusual place to hide password but challenging. You can also inspect element and find the password there.*)
+Answer : pennYDr0pper.! (*this was an interesting question as password is hidden in white coloration but in plain sight. Just click on left mouse and drag it all the way round to your page and you will find a text which was not present before. Very unusual place to hide text but challenging. You can also inspect element and find the password there.*)
