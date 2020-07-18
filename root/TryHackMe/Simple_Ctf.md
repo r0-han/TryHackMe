@@ -28,7 +28,7 @@ Answer : ssh (*we can ssh as we have username and password*)
 * ssh into the machine using (*ssh username@ip*) and type password. You will have a shell. Now type ls and you will see user.txt file. cat user.txt to see its content.
 
 7. What's the user flag?<br>
-Answer : G00d ***, k*** up!
+Answer : G00d j0b, k*** up!
 
 8. Is there any other user in the home directory? What's its name?<br>
 Answer : sun**** (*ls /home/*)
