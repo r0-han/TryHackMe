@@ -24,9 +24,9 @@ Answer : sha**
 * On viewing the content of above file we got a text 'M3tahuman'. It was clear that this was password for SSH. I logged in SSH thru command (*ssh slade@ip*) and typed the above password and we have gained the shell. Now 'cat' user.txt for the next question.
 
 6. user.txt<br>
-Answer : THM{P30P7E_K33P_53CRET5__*********_*****}
+Answer : THM{P30P7E_K33P_53CRET5__$$$$$$$$$_$$$$$}
 
 * After this I typed 'sudo -l' to see for root privileges and found the command that 'slade' can run. This command was '/usr/bin/pkexec'. So i ran 'pkexec' which was ELF file. After viewing its 'man' command it was clear that we can run '/bin/bash' with sudo. So I typed the command *sudo /usr/bin/pkexec /bin/bash* and got the root access. So i 'cat' the flag.
 
 7. root.txt<br>
-Answer : THM{MY_W0RD_I5_MY_B0ND_**_I_ACC3PT_****_CONTRACT_****_IT_WILL_**_COMPL3TED_OR_****_BE_D34D}
+Answer : THM{MY_W0RD_I5_MY_B0ND_$$_I_ACC3PT_$$$$_CONTRACT_$$$$_IT_WILL_$$_COMPL3TED_OR_$$$$_BE_D34D}
