@@ -5,7 +5,7 @@
 
 * Starting enumeration by nmap scan using command (*nmap -sV -A ip*) will show 3 ports open - 'ssh', 'ftp', 'http'. Also on going to the ip in browser it shows a message from 'Agent R'. Also it give us hint to change user-agent to access the site. So I used 'curl' to try different user-agents. I tried english alphabets 'A','B'... as the message is from 'R'.
 
-* I used command 'curl -H http://<IP> "User-Agent: A" -L but was unseccessful so i mmoved to B and got the same message. On trying 'C', 'curl -H http://<IP> "User-Agent: C" -L and got different message for 'chris'. So this is the agent name.Now on above context answers to below questions can be answered.
+* I used command 'curl -H http://<IP> "User-Agent: A" -L' but was unsuccessful so i moved to B and got the same message. On trying 'C', 'curl -H http://<IP> "User-Agent: C" -L' and got different message for 'chris'. So this is the agent name.Now on above context answers to below questions can be answered.
 
 
 1. How many open ports?<br>
