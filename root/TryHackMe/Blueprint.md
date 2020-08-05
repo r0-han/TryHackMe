@@ -24,5 +24,5 @@ Answer : google**** ('use crackstation to crack password')
 
 * Type 'shell' in the metasploit console and you will see a windows cmd like shell. Now traverse to Administrator's desktop and get the root flag.
 
-2. root.txt
+2. root.txt<br>
 Answer : THM{aea1e3ce6fe7f89e10cea***********}
