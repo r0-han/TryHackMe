@@ -22,7 +22,7 @@
 * Type 'ls' and you will see a user.jpg file. Get this file into your local machine using command '*scsp -P 80 jack@ip:user.jpg .*'. Now view this file and it contains your user flag.
 
 1. User Flag<br>
-Answer : securi-tay2020__p3ngu1n-hunt3r-3xtr40rd1n41r3}
+Answer : securi-tay2020__p3ngu1n-hunt3r-**************}
 
 * For privesc type 'sudo -l' but we cannot as jack is not in sudoers. Now we will search for suid . Type '*find / -perm -u=s -type f 2>/dev/null*' and we will get a list of suid. Now search on gtfo bins for proper suid from above result. You will find one for 'strings'. Run the command as given in gtfobins and you will gain user shell. Now type ./strings /root/root.txt
 
