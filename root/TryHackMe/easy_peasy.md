@@ -10,7 +10,7 @@
 1. How many ports are open?<br>
 Answer : 3
 
-2. What is the version of nginx?<<br>
+2. What is the version of nginx?<br>
 Answer : 1.16.1
 
 3. What is running on the highest port?<br>
