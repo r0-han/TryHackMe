@@ -3,10 +3,10 @@
 
 ## Task-2 Hack your way into the machine!
 
-* Started enumeration by using nmap and got three ports open - 22,80,8000. Port 80 was a defaut apache webpage but on port 8000 was 'Bolt CMS'. On moving to the site we can clearly see username as 'bolt' and its password as 'boltadmin123'. As port 22 was open so I thought of doing ssh login but was not successful. So after doing some searc we can find a login page at 'http://ip/bolt' and the above creds make us log in successfully. After logging in we can see the CMS version below.
+* Started enumeration by using nmap and got three ports open - 22,80,8000. Port 80 was a defaut apache webpage but on port 8000 was 'Bolt CMS'. On moving to the site we can clearly see username as 'bolt' and its password as 'boltadmin123'. As port 22 was open so I thought of doing ssh login but was not successful. So after doing some search we can find a login page at 'http://ip/bolt' and the above creds make us log in successfully. After logging in we can see the CMS version below.
 
 1. What port number has a web server with a CMS running?<br>
-Answer : bolt
+Answer : 8000
 
 2. What is the username we can find in the CMS?<br>
 Answer : bolt
@@ -26,4 +26,4 @@ Answer : 48296
 Answer : /exploit/unix/webapp/bolt_authenticated_rce
 
 7. Look for flag.txt inside the machine.<br>
-Answer: THM{wh0_******_l0ve5_****_r1g**?}
+Answer: THM{wh0_*****_l0ve5_****_r1g**?}
