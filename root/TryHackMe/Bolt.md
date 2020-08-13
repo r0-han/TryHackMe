@@ -26,4 +26,4 @@ Answer : 48296
 Answer : /exploit/unix/webapp/bolt_authenticated_rce
 
 7. Look for flag.txt inside the machine.<br>
-Answer: THM{wh0_*****_l0ve5_****_r1g**?}
+Answer: THM{wh0_d035nt_l0ve5_b0l7_r****?}
