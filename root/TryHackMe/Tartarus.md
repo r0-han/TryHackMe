@@ -20,7 +20,7 @@
 
 * Now to crack password we will use command ' *hydra -l userFromAboveResult -P credentials.txt IP http-post-form "/directoryWhichWeGotFromFTP/authenticate.php:username=^USER^&password=^PASS^:Incorrect password!* '. This will give us our password.
 
-* Now login into the site using these creds. After that it gives us a uploading file option. We can upload our php reverse shell there. After uploading that start you nc listener. After that go to /<directoryWhihcWeGotFromFTP>/images/uploads/phpRevShell.php and you will get your shell.
+* Now login into the site using these creds. After that it gives us a uploading file option. We can upload our php reverse shell there. After uploading that start you nc listener. After that go to /directoryWhihcWeGotFromFTP/images/uploads/phpRevShell.php and you will get your shell.
 
 * After logging into the shell we can see that we are 'www-data'. Go to '/home'	to see the list of users. Now type 'sudo -l' and we see that a user 'thirtytwo' can run gdb command. Now go to https://gtfobins.github.io/ to search for gdb sudo and we find one. Now type this command ' *sudo -u thirtytwo /var/www/gdb -nx -ex '!sh' -ex q* '. Now we are 'thirtytwo'.
 
