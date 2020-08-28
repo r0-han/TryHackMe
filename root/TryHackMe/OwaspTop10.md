@@ -115,7 +115,7 @@ Answer : W3LL_D0N3_**** ( ' *\<h1\>alert(document.cookie)\</h1\>* ' )
 
 6. Change "XSS Playground" to "I am a hacker" by adding a comment and using Javascript.<br>
 Answer :  websites_can_be_easily_defaced_******** ( ' *\<script\> document.getElementById("thm-title").innerHTML = 'I am a hacker'\</script
->* ' )
+\>* ' )
 
 ## Task-22 [Day 8] Insecure Deserialization
 
