@@ -165,7 +165,7 @@ Answer : 16** ( ' *Got the exploit on https://www.nmmapper.com/st/exploitdetails
 ## Task-31 [Day 10] Insufficient Logging and Monitoring 
 
 1. What IP address is the attacker using? <br>
-Answer : 49.99.**.** ( ' *Most common occuring IP* ' )
+Answer : 49.99.** .** ( ' *Most common occuring IP* ' )
 
 2. What kind of attack is being carried out?<br>
 Answer : Brute ***** ( ' *Follow the hint* ' )
