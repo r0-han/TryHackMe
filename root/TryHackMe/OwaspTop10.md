@@ -115,7 +115,7 @@ Answer : W3LL_D0N3_**** ( ' *\<h1\>alert(document.cookie)\</h1\>* ' )
 
 6. Change "XSS Playground" to "I am a hacker" by adding a comment and using Javascript.<br>
 Answer :  websites_can_be_easily_defaced_******** ( ' *\<script\> document.getElementById("thm-title").innerHTML = 'I am a hacker'\</script
->* ' )
+\>* ' )
 
 ## Task-22 [Day 8] Insecure Deserialization
 
@@ -165,7 +165,7 @@ Answer : 16** ( ' *Got the exploit on https://www.nmmapper.com/st/exploitdetails
 ## Task-31 [Day 10] Insufficient Logging and Monitoring 
 
 1. What IP address is the attacker using? <br>
-Answer : 49.99.**.** ( ' *Most common occuring IP* ' )
+Answer : 49.99.** .** ( ' *Most common occuring IP* ' )
 
 2. What kind of attack is being carried out?<br>
 Answer : Brute ***** ( ' *Follow the hint* ' )
