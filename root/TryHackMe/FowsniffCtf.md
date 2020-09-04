@@ -35,10 +35,10 @@ In 'Mail 1' we can see temporary ssh password and in 'Mail 2' we can see the nam
 
 -> Now edit this file using any editor and then type the python3's reverse shell (as given in the room material)  in the end of the file. Now in another terminal start your nc listener and then log again to the ssh. Now you will get root login in nc shell.
 
-## 7. What was seina's password to the email service?<br>
+7. What was seina's password to the email service?<br>
 Answer : scooby****
 
-## 8. Looking through her emails, what was a temporary password set for her?<br> 
+8. Looking through her emails, what was a temporary password set for her?<br> 
 Answer : S1ck3nBluff+***********
 
 ![flag](flag.png)
