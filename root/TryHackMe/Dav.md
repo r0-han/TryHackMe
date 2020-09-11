@@ -16,7 +16,7 @@
 1. user.txt<br>
 Answer : 449b40fe93f78a938523b7**********
 
-* Now for root, type 'sudo -l' to see for user permissions. We find that we can run '/bin/cat'. Now for root.txt type ( ' *sudo /bin/cat /root/root.txt* ' ).
+* Now for root, type 'sudo -l' to see for list of user privileges. We find that we can run '/bin/cat'. Now for root.txt type ( ' *sudo /bin/cat /root/root.txt* ' ).
 
 2. root.txt <br>
 Answer : 101101ddc16b0cdf65ba0b**********
