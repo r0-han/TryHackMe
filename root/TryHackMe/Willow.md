@@ -28,7 +28,7 @@
 
 ### User Flag
 
-* After logging in we can see a *user.jpg* file which we have to transfer on our local machine to view it. I used scp to transfer this ***scp -i above_key ip:user.jpg . ***. After this you can submit the user flag.
+* After logging in we can see a *user.jpg* file which we have to transfer on our local machine to view it. I used scp to transfer this ***scp -i above_key ip:user.jpg***. After this you can submit the user flag.
 
 1. User flag 
 * THM{beneath_the_weeping_//////_////}
