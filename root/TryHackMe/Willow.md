@@ -1,6 +1,6 @@
 # Willow 
 
-**What lies under the Willow Tree?
+**What lies under the Willow Tree?**
 
 ## Task-1 Flags
 
@@ -12,7 +12,7 @@
 
 * This port shows *nfs* service is open. So we can try to view the directories to mount in order to access some files. Command for the same is ***showmount -e ip***.<br>
 
-* We see that we can mount directory */var/failsafe*. Command for the same is ***mount ip/var/failsafe*** /mnt/Willow*** . So now if we head over to */mnt/Willow* we can see *rsa_keys* file.
+* We see that we can mount directory */var/failsafe*. Command for the same is ***mount ip/var/failsafe /mnt/Willow*** . So now if we head over to */mnt/Willow* we can see *rsa_keys* file.
 
 * In that we are given *Public Key Pair: (23, 37627) and Private Key Pair: (61527, 37627)* . So in RSA these are given as *Public Key: (e,n) and Private Key: (d,n)*. We will leave them here at this time.
 
@@ -24,11 +24,11 @@
 
 * As this is a ssh key we can use *ssh2john.py* to decrypt it. For this use the command ***python3 ssh2john.py above_key > keys.txt*** and then again use john to crack it using command ***john --wordlist=rockyou.txt keys.txt***. After this you will get the password for rsa keys.
 
-* Now we can log into user *willow* using the command ***ssh -i above_key willow@<ip>*** and the password obtained from above step. 
+* Now we can log into user *willow* using the command ***ssh -i above_key willow@ip*** and the password obtained from above step. 
 
 ### User Flag
 
-* After logging in we can see a *user.jpg* file which we have to transfer on our local machine to view it. I used scp to transfer this ***scp -i above_key ip:user.jpg .***. After this you can submit the user flag.
+* After logging in we can see a *user.jpg* file which we have to transfer on our local machine to view it. I used scp to transfer this ***scp -i above_key ip:user.jpg . ***. After this you can submit the user flag.
 
 1. User flag 
 * THM{beneath_the_weeping_//////_////}
